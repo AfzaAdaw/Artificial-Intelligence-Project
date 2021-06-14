@@ -4,10 +4,13 @@
 - Real life image can be converted to cartoon
 - System support image upload from desktop to be processed
 - System can save the converted picture 
+- The system fulfilled the closing checklist
 
 ## Closing Checklist
+checklist
 
 ## Schedule:
+gantt
 
 ## Lesson Learnt:
 The main lesson learned in our project is:
