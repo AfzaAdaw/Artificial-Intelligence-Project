@@ -4,6 +4,7 @@
 - Real life image can be converted to cartoon
 - System support image upload from desktop to be processed
 - System can save the converted picture 
+- The system fulfilled the closing checklist
 
 ## Closing Checklist
 
