@@ -36,10 +36,21 @@ E. PROJECT CLOSING : [Project Closing](https://github.com/AfzaAdaw/Artificial-In
 ## E   DETECTING IMAGES
 
 ## F.  RESULT AND CONCLUSION
+Cartoonify the image using OpenCV in real-time
 
+You can launch the program using the following steps:
+- Open Anaconda Navigator
+- Choose JupyterNotebook
+- Open CartoonifyImage.ipynb
+- Click upload image button
+- Choose the option desired either to save sketched or cartoonified image
 
 ## G.   PROJECT PRESENTATION 
+Through this project, we learned how to create a Cartoonify Image using OpenCV, changing images to grayscale, beautify and layering images in order to cartoonify it.
 
+Other than that, we learned about Tkinter where we apply upload image, display image previews, save button and save image as. The support can read the image that we uploaded. 
+
+Below, we include the demonstration of Cartonify Image
 
 [![demo](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/videothumbnail.png)](https://www.youtube.com/watch?v=gk1Mw4IPrzo "demo")
 
