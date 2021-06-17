@@ -55,3 +55,22 @@ Here our first step of the process, we will convert the image into grayscale ima
                Figure 1
 
 After each transformation, we will resize the resultant image using resize() method in cv2 and display the image using **plot.imshow()** method. This method is done so we will get more clear insights into every single transformation during the whole process like Figure 1.
+
+
+**Step 6 :**
+
+![Step 6](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step%206.JPG)
+
+This transformation is to smoothen an image and apply a blur effect. This is done using medianBlur() function in method cv2. During this transformation process, the center pixel is assigned a mean value of all the pixels. In turn, creating a blur effect. 
+
+
+**Step7 :**
+
+![Step 7](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step%207.JPG)
+
+In this step, we will retrieve the image edges and highlight them. This step is done by adaptiveThreshold function or technique in method cv2. The threshold value is the mean of the neighborhood pixel values area minus the constant C. Constant C is subtracted from the mean or weighted sum of the neighborhood pixels. Thresh_binary is the type pf threshold applied.
+
+![Figure 2](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step%207.2.JPG)
+Figure 2
+
+Figure 2 shows example of using adaptiveThreshold() function in step 7.
