@@ -2,9 +2,11 @@
 
 ## Description Of The Project Coding And Implementation
 
+
 **Libraries And Packages Required In This Project**
 
-Firstly, we will import the following modules : 
+
+Firstly, we will import the following modules in our coding : 
 
 - cv2           = to use OpenCV to process the image
 - easygui       = it will allows us to select an image from system
