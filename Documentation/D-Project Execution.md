@@ -6,10 +6,10 @@
 
 Firstly, we will import the following modules : 
 
-> cv2 = to use OpenCV to process the image
-> easygui = it will allows us to select an image from system
-> numpy = to save image and processed it as numbers
-> imageio = to read image stored in specific path
-> matplotlin = for visualization and image plotting
-> os = to read and save image 
-> tkinter as tk = for tk interface
+- cv2 = to use OpenCV to process the image
+- easygui = it will allows us to select an image from system
+- numpy = to save image and processed it as numbers
+- imageio = to read image stored in specific path
+- matplotlin = for visualization and image plotting
+- os = to read and save image 
+- tkinter as tk = for tk interface
