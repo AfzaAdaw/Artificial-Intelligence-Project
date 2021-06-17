@@ -41,3 +41,5 @@ In this step, we will build the button for upload image and label for image name
 ![Step 4](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step%204.JPG)
 
 covert(UploadImage) are function to read the chosen image. We will convert the image into a numpy array. imread is a method in cv2 which is used to store the image in the form of numbers and it can help us to perform the operations for this project. **OriginalPicture=cv2.cvtColor(OriginalPicture, cv2.COLOR_BGR2RGB)** command is for the image to be convert from bgr > rbg to save the image correctly after being converted into codes.
+
+Then we add command if to check if the picture is uploaded or not. Before the process start, we will resize the uploaded image first so it can display on a similar scale on main window.
