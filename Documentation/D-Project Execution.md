@@ -9,7 +9,7 @@
 Firstly, we will import the following modules in our coding : 
 
 
-![Figure 1](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/modules.JPG)
+![Step 1](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/modules.JPG)
 
 
 - cv2           = to use OpenCV to process the image
@@ -20,3 +20,7 @@ Firstly, we will import the following modules in our coding :
 - matplotlin    = for visualization and image plotting
 - os            = to read and save image 
 - tkinter as tk = for tk interface
+
+![Step 2](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/gui%20screen.JPG)
+
+In this step, we create gui screen with label(title of the project) on top of the gui.
