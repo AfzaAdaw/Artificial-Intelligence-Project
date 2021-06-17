@@ -103,4 +103,4 @@ To plot all images for each transformation in this process, we will make a list 
 ![Step 10.2](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2010.2.JPG)
 Figure 3
 
-Figure 3 is the example of how subplots works after the process.
+Figure 3 shows of how subplots works after the process.
