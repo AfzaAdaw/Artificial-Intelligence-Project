@@ -47,11 +47,11 @@ Then we add command if to check if the picture is uploaded or not. Before the pr
 
 **Step 5 :**
 
-![Step 5](![image](https://user-images.githubusercontent.com/80871421/122415546-97a56e00-cfba-11eb-8cd7-ee8f4267c364.png)
+![Step 5](https://user-images.githubusercontent.com/80871421/122415546-97a56e00-cfba-11eb-8cd7-ee8f4267c364.png)
 
 Here our first step of the process, we will convert the image into grayscale image by BGR2GRAY. This will returns the image in grayscale. A grayscale image will be store as GrayScalePic.
 
 ![Figure 1](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step%205.2.JPG)
-
+               Figure 1
 
 After each transformation, we will resize the resultant image using resize() method in cv2 and display the image using **plot.imshow()** method. This method is done so we will get more clear insights into every single transformation during the whole process like Figure 1.
