@@ -7,13 +7,21 @@
 - The system fulfilled the closing checklist
 
 ## Closing Checklist
+A table provided below is a checklist for us to check whether the project code can be officially closed:
+
 ![Checklist](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Schedule%20%26%20Checklist/Closing%20Checklist.JPG)
 
 ## Schedule:
-gantt
+Generelly, this is our schedule and how we divide our task:
+
+![Schedule](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Schedule%20%26%20Checklist/Schedule.JPG)
+![Legend](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Schedule%20%26%20Checklist/Schedule-Legend.JPG)
 
 ## Lesson Learnt:
 The main lesson learned in our project is:
 
-First, have a good time management and teamwork. Our group formed a schedule after the lecturer gave the task. It is to make sure that our project can be completed within the time given. Besides that, all team member follows the schedule well and did their part as stated in the schedule.
+First, having a good time management and planning. Our group formed a schedule as soon after the lecturer gave the task. It is to make sure that our project can be completed within the time given. Besides that, all team member follows the schedule well and did their part as stated in the schedule.
+
 Second, having a proper communication between members. Our group had discussion through Microsoft Teams and everyone explain their part so that the code can be compiled without hassle then all members are aware with the current project progress.
+
+Lastly, building a good teamwork among the members and being helpful to each other. Each of member will lend a hand whenever there is a problem occured eventhough it is not their part. We tried to guide each other as this project is using Python Language which is most of us originally have not familiar with yet.
