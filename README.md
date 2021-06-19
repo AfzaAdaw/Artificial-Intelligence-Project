@@ -31,7 +31,7 @@ Figure 1 shows the AI output of the cartoonified image.
 
 D. PROJECT EXECUTION : [Project Execution](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Project%20Execution)
 
-E. PROJECT CLOSING : [Project Closing](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/0d5756a52f8c69e3ba735f2fbdc894e9ca80e5c9/Documentation/E-ProjectClosing.md)
+E. PROJECT CLOSING : [Project Closing]https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/E-ProjectClosing.md)
 
 ## D.   PROJECT STRUCTURE
 
