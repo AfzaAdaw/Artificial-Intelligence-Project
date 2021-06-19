@@ -5,7 +5,11 @@
 
 ### A.Libraries And Packages Required In This Project
 
-**Step 1 :**
+
+
+
+
+### Step 1 :
 
 Firstly, we will import the following modules in our coding : 
 
@@ -23,20 +27,32 @@ Firstly, we will import the following modules in our coding :
 - tkinter as tk = for tk interface
 
 
-**Step 2 :**
+
+
+
+
+### Step 2 :
 
 ![Step 2](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/gui%20screen.JPG)
 
 We create the main window with label(title of the project) on top of the window.
 
 
-**Step 3 :**
+
+
+
+
+### Step 3 :
 
 ![Step 3](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%203.JPG)
 
 In this step, we will build the button for upload image and label for image name to be converted. This step will opens the file box, it will pop-up so we can choose an image from our device and it will pop-up everytime we run the code. Function  fileopenbox() is the method in easyGUI module which return the path of the chosen image as a string to process it later.
 
-**Step 4 :**
+
+
+
+
+### Step 4 :
 
 ![Step 4](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%204.JPG)
 
@@ -45,7 +61,10 @@ covert(UploadImage) are function to read the chosen image. We will convert the i
 Then we add command if to check if the picture is uploaded or not. Before the process start, we will resize the uploaded image first so it can display on a similar scale on main window.
 
 
-**Step 5 :**
+
+
+
+### Step 5 :
 
 ![Step 5](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%205.JPG)
 
@@ -57,14 +76,20 @@ Here our first step of the process, we will convert the image into grayscale ima
 After each transformation, we will resize the resultant image using resize() method in cv2 and display the image using **plot.imshow()** method. This method is done so we will get more clear insights into every single transformation during the whole process like **Figure 1**.
 
 
-**Step 6 :**
+
+
+
+### Step 6 :
 
 ![Step 6](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%206.JPG)
 
 This transformation is to smoothen an image and apply a blur effect. This is done using medianBlur() function in method cv2. During this transformation process, the center pixel is assigned a mean value of all the pixels. In turn, creating a blur effect. 
 
 
-**Step7 :**
+
+
+
+### Step7 :
 
 ![Step 7](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%207.JPG)
 
@@ -75,7 +100,11 @@ In this step, we will retrieve the image edges and highlight them. This step is 
 
 **Figure 2** shows example of using adaptiveThreshold() function in step 7.
 
-**Step 8 :**
+
+
+
+
+### Step 8 :
 
 ![Step 8](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%208.JPG)
 
@@ -85,7 +114,10 @@ We use bilateralFilter() function to remove the noise in the image. It can be ta
 This step is a step where we beautify the image similar with AI effect in cameras of modern device.
 
 
-**Step 9 :**
+
+
+
+### Step 9 :
 
 ![Step 9](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%209.JPG)
 
@@ -93,7 +125,10 @@ This step is a step where we beautify the image similar with AI effect in camera
 In this step, it will be done using MASKING. We perform bitwise_and on the image. Images are just number and that's how we mask the edged image on our cartoonify image. This finally will convert original image into cartoonify image!
 
 
-**Step 10 :**
+
+
+
+### Step 10 :
 
 ![Step 10](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2010.JPG)
 
@@ -106,7 +141,11 @@ To plot all images for each transformation in this process, we will make a list 
 **Figure 3** shows of how subplots works after the process.
 
 
-**Step 11 :**
+
+
+
+
+### Step 11 :
 
 ![Step 11](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2011.JPG)
 
@@ -118,7 +157,11 @@ Above code makes a button after the process of transform an image into cartoon i
 
 **Figure 4** shows the save buttons on main window.
 
-**Step 12 :**
+
+
+
+
+### Step 12 :
 
 ![Step 12.1](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2012.JPG)
 Step 12.1
@@ -138,7 +181,9 @@ So that, we can see the preview of before(original image) and after(sketched & c
 **Figure 5** shows the preview of the images and the label on top of the images.
 
 
-**Step 13 :**
+
+
+### Step 13 :
 
 ![Step 13](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2014.JPG)
 
@@ -147,8 +192,11 @@ Step 13 is the iea to save the resultant image. To save the image, we take the o
 **os.path.dirname()** method will be use to save the resultant image in the same file as original image.
 **os.path.splitext(UploadImage)[1]** is used to extract the extension of the file from the path.
 
+
 **newName = simpledialog.askstring("", "", parent=windows)** method will display a new window for us to enter new name if we want to save the resultant image.
 **path1 = os.path.join(path, newName+extension)** method will save the resultant image with the name that we just enter just now.
+
+
 
 ![Step 13.2](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2014.2.JPG)
 **Figure 6**
@@ -156,7 +204,9 @@ Step 13 is the iea to save the resultant image. To save the image, we take the o
 **Figure 6** shows the window that will poo-up right after we click the save image button, then we will enter new name for the image that we want to save.
 
 
-**Step 14 :**
+
+
+### Step 14 :
 
 ![Step 14](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2015.JPG)
 
@@ -165,7 +215,10 @@ This step is to make the upload button in the main window like **Figure 7** belo
 ![Figure 7](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2015.2.JPG)
 **Figure 7**
 
-**Step 15 :**
+
+
+
+### Step 15 :
 
 ![Step 15](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2016.JPG)
 
@@ -183,6 +236,7 @@ This is the last step for this process. In this step we create the main function
 
 ![Final](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Final.JPG)
 **Figure 9**
+
 
 **Figure 9** shows the final main window after the process cartonify image is finish.
 
