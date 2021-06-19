@@ -29,8 +29,6 @@ Firstly, we will import the following modules in our coding :
 
 
 
-
-
 ### Step 2 :
 
 ![Step 2](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/1.JPG)
