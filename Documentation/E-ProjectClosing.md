@@ -7,7 +7,7 @@
 - The system fulfilled the closing checklist
 
 ## Closing Checklist
-checklist
+![Checklist](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Schedule%20%26%20Checklist/Closing%20Checklist.JPG)
 
 ## Schedule:
 gantt
