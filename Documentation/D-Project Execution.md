@@ -52,9 +52,9 @@ Then we add command if to check if the picture is uploaded or not. Before the pr
 Here our first step of the process, we will convert the image into grayscale image by BGR2GRAY. This will returns the image in grayscale. A grayscale image will be store as GrayScalePic.
 
 ![Figure 1](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%205.2.JPG)
-               Figure 1
+               **Figure 1**
 
-After each transformation, we will resize the resultant image using resize() method in cv2 and display the image using **plot.imshow()** method. This method is done so we will get more clear insights into every single transformation during the whole process like Figure 1.
+After each transformation, we will resize the resultant image using resize() method in cv2 and display the image using **plot.imshow()** method. This method is done so we will get more clear insights into every single transformation during the whole process like **Figure 1**.
 
 
 **Step 6 :**
@@ -71,9 +71,9 @@ This transformation is to smoothen an image and apply a blur effect. This is don
 In this step, we will retrieve the image edges and highlight them. This step is done by adaptiveThreshold function or technique in method cv2. The threshold value is the mean of the neighborhood pixel values area minus the constant C. Constant C is subtracted from the mean or weighted sum of the neighborhood pixels. Thresh_binary is the type pf threshold applied.
 
 ![Figure 2](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%207.2.JPG)
-Figure 2
+**Figure 2**
 
-Figure 2 shows example of using adaptiveThreshold() function in step 7.
+**Figure 2** shows example of using adaptiveThreshold() function in step 7.
 
 **Step 8 :**
 
@@ -101,6 +101,92 @@ To plot all images for each transformation in this process, we will make a list 
 
 
 ![Step 10.2](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2010.2.JPG)
-Figure 3
+**Figure 3**
 
-Figure 3 shows of how subplots works after the process.
+**Figure 3** shows of how subplots works after the process.
+
+
+**Step 11 :**
+
+![Step 11](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2011.JPG)
+
+
+Above code makes a button after the process of transform an image into cartoon is done. For save button, we can choose either we want to save the cartoonified image only or the sketch image only but we can also save both image if we want!  
+
+![Step 11.2](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2012.2.JPG)
+**Figure 4**
+
+**Figure 4** shows the save buttons on main window.
+
+**Step 12 :**
+
+![Step 12.1](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2012.JPG)
+Step 12.1
+
+![Step 12.2](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2013.JPG)
+Step 12.2
+
+
+
+In step 12, we will display the original image, the cartoonified image and the skecthed image on main window with label on top of each image.
+So that, we can see the preview of before(original image) and after(sketched & cartonified image) the process of transformation.
+
+
+![Step 12.3](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2012.3.JPG)
+**Figure 5**
+
+**Figure 5** shows the preview of the images and the label on top of the images.
+
+
+**Step 13 :**
+
+![Step 13](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2014.JPG)
+
+
+Step 13 is the iea to save the resultant image. To save the image, we take the original image's location. 
+**os.path.dirname()** method will be use to save the resultant image in the same file as original image.
+**os.path.splitext(UploadImage)[1]** is used to extract the extension of the file from the path.
+
+**newName = simpledialog.askstring("", "", parent=windows)** method will display a new window for us to enter new name if we want to save the resultant image.
+**path1 = os.path.join(path, newName+extension)** method will save the resultant image with the name that we just enter just now.
+
+![Step 13.2](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2014.2.JPG)
+**Figure 6**
+
+**Figure 6** shows the window that will poo-up right after we click the save image button, then we will enter new name for the image that we want to save.
+
+
+**Step 14 :**
+
+![Step 14](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2015.JPG)
+
+This step is to make the upload button in the main window like **Figure 7** below.
+
+![Figure 7](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2015.2.JPG)
+**Figure 7**
+
+**Step 15 :**
+
+![Step 15](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2016.JPG)
+
+This is the last step for this process. In this step we create the main function to build the tkinter window.
+
+
+### B. Project Result
+
+![Start](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Start.JPG)
+**Figure 8**
+
+
+**Figure 8** shows the main window before we upload image.
+
+
+![Final](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Final.JPG)
+**Figure 9**
+
+**Figure 9** shows the final main window after the process cartonify image is finish.
+
+
+
+
+**Next :** [Project Closing](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/E-ProjectClosing.md)
