@@ -33,9 +33,10 @@ Firstly, we will import the following modules in our coding :
 
 ### Step 2 :
 
-![Step 2](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/gui%20screen.JPG)
+![Step 2](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/1.JPG)
 
-We create the main window with label(title of the project) on top of the window.
+We create the main window with label(title of the project) on top of the window. 
+**windows.resizable(False,False)** method is used to create a fixed size for main window.
 
 
 
