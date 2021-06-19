@@ -149,9 +149,9 @@ To plot all images for each transformation in this process, we will make a list 
 ![Step 11](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2011.JPG)
 
 
-Above code makes a button after the process of transform an image into cartoon is done. For save button, we can choose either we want to save the cartoonified image only or the sketch image only but we can also save both image if we want!  
+Above code makes save buttons after the process of transform an image into cartoon is done. For save button, we can choose either we want to save the cartoonified image only or the sketch image only but we can also save both image if we want!  
 
-![Step 11.2](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2012.2.JPG)
+![Step 11.2](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/11.2.JPG)
 **Figure 4**
 
 **Figure 4** shows the save buttons on main window.
@@ -162,10 +162,10 @@ Above code makes a button after the process of transform an image into cartoon i
 
 ### Step 12 :
 
-![Step 12.1](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2012.JPG)
+![Step 12.1](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/12.JPG)
 Step 12.1
 
-![Step 12.2](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2013.JPG)
+![Step 12.2](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%20122.JPG)
 Step 12.2
 
 
@@ -174,7 +174,7 @@ In step 12, we will display the original image, the cartoonified image and the s
 So that, we can see the preview of before(original image) and after(sketched & cartonified image) the process of transformation.
 
 
-![Step 12.3](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2012.3.JPG)
+![Step 12.3](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Step%2012.2.JPG)
 **Figure 5**
 
 **Figure 5** shows the preview of the images and the label on top of the images.
@@ -233,7 +233,7 @@ This is the last step for this process. In this step we create the main function
 **Figure 8** shows the main window before we upload image.
 
 
-![Final](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Final.JPG)
+![Final](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/Finall.JPG)
 **Figure 9**
 
 
