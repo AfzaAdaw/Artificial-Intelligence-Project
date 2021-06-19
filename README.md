@@ -29,7 +29,7 @@ Figure 1 shows the AI output of the cartoonified image.
 
 ## C.  PROJECT MANAGEMENT PLAN
 
-D. PROJECT EXECUTION : [Project Execution](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Project%20Execution)
+D. PROJECT EXECUTION : [Project Execution](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/D-Project%20Execution.md) 
 
 E. PROJECT CLOSING : [Project Closing](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/E-ProjectClosing.md)
 
