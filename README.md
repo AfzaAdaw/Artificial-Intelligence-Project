@@ -18,27 +18,29 @@
 - To save time in converting multiple images to make animations
 
 
-##  B. ABSTRACT 
+**Abstract**
 
 Cartoon are wildly used in animations films. that it became a source of income and entertainment that is important to a community of people in the film industry and comic books adaptations. To produce an animation requires long hours to animate a scene full of backgrounds and plenty of character's movements, thus if the process to cartoonify a real camera-captured scenery into a cartoon image, should lessen half of the animation production.
 
 
-![Coding](https://miro.medium.com/max/1400/1*DDVhh51c4i2-4L5L4vEqxw.png)
+<img width="652" alt="sample output" src="https://user-images.githubusercontent.com/80894743/123343617-ae346200-d584-11eb-9145-36a86ed788d7.png">
+
+
 Figure 1 shows the AI output of the cartoonified image.
 
 
-## C.  PROJECT MANAGEMENT PLAN
+## PROJECT MANAGEMENT PLAN
+B. PROJECT PLANNING : [Project Planning](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/dbed643ff200a45aeaceb511156243c2f6b397c8/Documentation/B-%20Project%20Planning.md)
 
+
+
+## PROJECT STRUCTURE
+
+
+## DETECTING IMAGES
 D. PROJECT EXECUTION : [Project Execution](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/D-Project%20Execution.md) 
 
-E. PROJECT CLOSING : [Project Closing](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/E-ProjectClosing.md)
-
-## D.   PROJECT STRUCTURE
-
-
-## E   DETECTING IMAGES
-
-## F.  RESULT AND CONCLUSION
+## RESULT AND CONCLUSION
 Cartoonify the image using OpenCV in real-time
 
 You can launch the program using the following steps:
@@ -48,15 +50,13 @@ You can launch the program using the following steps:
 - Click upload image button
 - Choose the option desired either to save sketched or cartoonified image
 
+E. PROJECT CLOSING : [Project Closing](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/E-ProjectClosing.md)
+
 ## G.   PROJECT PRESENTATION 
 Through this project, we learned how to create a Cartoonify Image using OpenCV, changing images to grayscale, beautify and layering images in order to cartoonify it.
 
 Other than that, we learned about Tkinter where we apply upload image, display image previews, save button and save image as. The support can read the image that we uploaded. 
 
 Below, we include the demonstration of Cartonify Image
-
-[![demo](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/videothumbnail.png)](https://www.youtube.com/watch?v=gk1Mw4IPrzo "demo")
-
-
 
 
