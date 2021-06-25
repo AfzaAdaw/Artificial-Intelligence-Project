@@ -60,5 +60,5 @@ Other than that, we learned about Tkinter where we apply upload image, display i
 
 Below, we include the video demonstration of Cartonify Image
 
-[![Video Demo Here](https://user-images.githubusercontent.com/80894743/123387576-87008380-d5ca-11eb-9f78-7df5c961e386.png)](https://youtu.be/CtCiGQ98nsQ)
+[![Video Demo Here](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/Step/video.JPG)](https://youtu.be/CtCiGQ98nsQ)
 
