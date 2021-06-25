@@ -58,7 +58,5 @@ Through this project, we learned how to create a Cartoonify Image using OpenCV, 
 Other than that, we learned about Tkinter where we apply upload image, display image previews, save button and save image as. The support can read the image that we uploaded. 
 
 Below, we include the video demonstration of Cartonify Image
-
-[![Figure2](picture link)](https://youtu.be/CtCiGQ98nsQ "Figure 2")
-[![Video Demo](![image](https://user-images.githubusercontent.com/80894743/123387576-87008380-d5ca-11eb-9f78-7df5c961e386.png))](https://youtu.be/CtCiGQ98nsQ)
+[![Video Demo Here](https://user-images.githubusercontent.com/80894743/123387576-87008380-d5ca-11eb-9f78-7df5c961e386.png)](https://youtu.be/CtCiGQ98nsQ)
 
