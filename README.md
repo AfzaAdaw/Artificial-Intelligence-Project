@@ -35,7 +35,7 @@ B. PROJECT PLANNING : [Project Planning](https://github.com/AfzaAdaw/Artificial-
 
 
 ## PROJECT STRUCTURE
-C. PROJECT IMPLEMENTATION
+C. PROJECT IMPLEMENTATION : [Project Implimentation](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/main/Documentation/C-Project%20Implementation.md)
 
 
 ## DETECTING IMAGES
