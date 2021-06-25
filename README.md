@@ -12,10 +12,10 @@
 
 
 **Objectives:**
-[ Break out the project goal into more specific objectives]
-- To convert a 3D image into a 2D image
-- To change an original image into a new version of image
-- To save time in converting multiple images to make animations
+- Break out the project goal into more specific objectives: 
+  - To convert a 3D image into a 2D image
+  - To change an original image into a new version of image
+  - To save time in converting multiple images to make animations
 
 
 **Abstract**
