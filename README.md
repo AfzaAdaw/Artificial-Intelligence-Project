@@ -35,6 +35,7 @@ B. PROJECT PLANNING : [Project Planning](https://github.com/AfzaAdaw/Artificial-
 
 
 ## PROJECT STRUCTURE
+C. PROJECT IMPLEMENTATION
 
 
 ## DETECTING IMAGES
