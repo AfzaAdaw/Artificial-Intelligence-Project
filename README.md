@@ -28,6 +28,9 @@ Cartoon are wildly used in animations films. that it became a source of income a
 
 Figure 1 shows the AI output of the cartoonified image.
 
+## Acknowledgement to project code contributor ##
+DataFlair. (2020, September 17).  Cartoonify an Image source code.[Source code]. URL:  https://data-flair.training/blogs/cartoonify-image-opencv-python/
+
 
 ## PROJECT MANAGEMENT PLAN
 B. PROJECT PLANNING : [Project Planning](https://github.com/AfzaAdaw/Artificial-Intelligence-Project/blob/dbed643ff200a45aeaceb511156243c2f6b397c8/Documentation/B-%20Project%20Planning.md)
